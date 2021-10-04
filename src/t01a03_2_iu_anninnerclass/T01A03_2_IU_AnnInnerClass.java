@@ -69,7 +69,7 @@ public class T01A03_2_IU_AnnInnerClass extends Application {
         root.setHgap(10.0);
         root.getChildren().addAll(neww, open, save, print);
         
-        Scene scene = new Scene(root, 300, 250);
+        Scene scene = new Scene(root, 300, 100);
         
         primaryStage.setTitle("Annonymous Inner Class");
         primaryStage.setScene(scene);
